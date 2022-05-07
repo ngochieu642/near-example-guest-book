@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/coder/Documents/courses/near-certified-developer-level-1/near-example-guest-book'
+npm run build:contract && \
+./node_modules/.bin/near deploy --accountId ngochieu642.testnet --wasmFile=./out/main.wasm
+make: Leaving directory '/home/coder/Documents/courses/near-certified-developer-level-1/near-example-guest-book'
+ 
